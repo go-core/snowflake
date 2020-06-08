@@ -17,11 +17,11 @@ var (
 
 	// NodeBits holds the number of bits to use for Node
 	// Remember, you have a total 22 bits to share between Node/Step
-	NodeBits uint8 = 0
+	NodeBits uint8 = 8
 
 	// StepBits holds the number of bits to use for Step
 	// Remember, you have a total 22 bits to share between Node/Step
-	StepBits uint8 = 12
+	StepBits uint8 = 8
 
 	// DEPRECATED: the below four variables will be removed in a future release.
 	mu        sync.Mutex
