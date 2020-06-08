@@ -17,7 +17,7 @@ var (
 
 	// NodeBits holds the number of bits to use for Node
 	// Remember, you have a total 22 bits to share between Node/Step
-	NodeBits uint8 = 9
+	NodeBits uint8 = 0
 
 	// StepBits holds the number of bits to use for Step
 	// Remember, you have a total 22 bits to share between Node/Step
